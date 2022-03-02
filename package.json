@@ -1,0 +1,14 @@
+{
+  "name": "shopify-bulk-product-uploader",
+  "version": "1.0.0",
+  "description": "A Shopify compatible csv file generator to upload products in bulk.",
+  "main": "main.electron.js",
+  "scripts": {
+    "start": "npx electron ./src/main.electron.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^16.0.2"
+  }
+}
