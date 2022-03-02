@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Shopify Upload Generator</title>
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Shopify Import Generator</h1>
+
+        <div id="controls">
+            <label for="collection">Collection</label>
+            <input id="collection" type="text">
+
+            <label for="web-prefix">Web prefix</label>
+            <input id="web-prefix" type="text" value="">
+
+            <label for="img-folder">Images folder</label>
+            <input id="img-folder" type="text">
+            <input id="img-folder-selector" type="button" value="Browse" /> 
+
+            <label for="date">Date</label>
+            <input id="date" type="date">
+
+            <fieldset>
+                <legend>Categories</legend>
+
+                <label for="category-name-1">Name</label>
+                <input id="category-name-1" type="text" value=""> <br>
+                <label for="category-price-1">Price</label>
+                <input id="category-price-1" type="number" value="">
+
+                <hr>
+
+                <label for="category-name-2">Name</label>
+                <input id="category-name-2" type="text" value=""> <br>
+                <label for="category-price-2">Price</label>
+                <input id="category-price-2" type="number" value="">
+
+                <hr>
+
+                <label for="category-name-3">Name</label>
+                <input id="category-name-3" type="text" value=""> <br>
+                <label for="category-price-3">Price</label>
+                <input id="category-price-3" type="number" value="">
+            </fieldset>
+
+            <label for="bodypref">Body Prefix</label>
+            <input id="bodypref" type="text" value="">
+
+            <button onclick="startGenerate()">Start</button>
+        </div>
+
+        <script src="./renderer.js"></script>
+    </body>
+</html>
