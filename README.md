@@ -1,6 +1,6 @@
 # Shopify Uploader
 
-A bulk project uploader to Spotify that works by generating an import CSV
+Bulk Shopify uploader that works by generating an import CSV
 
 ## Usage
 
