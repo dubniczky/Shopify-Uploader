@@ -32,4 +32,11 @@ Go to the Shopify admin panel and in the products menu select: import. Upload th
 
 ### 6. Remove images
 
-After all of the products have uploaded you may remove them from the server.
+After all of the products have been uploaded you may remove them from the server.
+
+## Limitations
+
+- A public server is needed for the image upload
+- Only supports one product per image
+- All products will have the same price
+- A collection is required for the images
